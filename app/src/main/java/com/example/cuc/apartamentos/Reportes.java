@@ -193,11 +193,11 @@ public class Reportes extends AppCompatActivity {
             prom5 = suma5/cont5;
         }
 
-        result = res.getString(R.string.piso)+res.getString(R.string.piso1)+" "+prom+" "+res.getString(R.string.metros)+"\n"+
-                res.getString(R.string.piso)+res.getString(R.string.piso2)+" "+prom2+" "+res.getString(R.string.metros)+"\n"+
-                res.getString(R.string.piso)+res.getString(R.string.piso2)+" "+prom3+" "+res.getString(R.string.metros)+"\n"+
-                res.getString(R.string.piso)+res.getString(R.string.piso2)+" "+prom4+" "+res.getString(R.string.metros)+"\n"+
-                res.getString(R.string.piso)+res.getString(R.string.piso2)+" "+prom5+" "+res.getString(R.string.metros);
+        result = res.getString(R.string.pisob)+" "+res.getString(R.string.piso1)+": "+prom+" "+res.getString(R.string.metros)+"\n"+
+                res.getString(R.string.pisob)+" "+res.getString(R.string.piso2)+": "+prom2+" "+res.getString(R.string.metros)+"\n"+
+                res.getString(R.string.pisob)+" "+res.getString(R.string.piso3)+": "+prom3+" "+res.getString(R.string.metros)+"\n"+
+                res.getString(R.string.pisob)+" "+res.getString(R.string.piso4)+": "+prom4+" "+res.getString(R.string.metros)+"\n"+
+                res.getString(R.string.pisob)+" "+res.getString(R.string.piso5)+": "+prom5+" "+res.getString(R.string.metros);
 
         new AlertDialog.Builder(this).setMessage(result).setCancelable(true).show();
     }
