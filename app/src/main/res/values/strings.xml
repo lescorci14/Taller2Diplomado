@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Apartamentos</string>
+    <string name="registrar">Registrar</string>
+    <string name="listado">Listado</string>
+    <string name="reportes">Reportes</string>
+    <string name="numero">N°</string>
+    <string name="nomenclatura">Nomenclatura</string>
+    <string name="comodidad">Comodidad</string>
+    <string name="metros">Mts^2</string>
+    <string name="precio">Precio</string>
+    <string name="apartamentos">Apartamentos</string>
+    <string name="piso">Piso:</string>
+    <string name="hab_numero">Habitación:</string>
+    <string name="balcon">Balcon</string>
+    <string name="sombra">Sombra</string>
+    <string name="ambas">Balcon y Sombra</string>
+    <string name="piso1">1</string>
+    <string name="piso2">2</string>
+    <string name="piso3">3</string>
+    <string name="piso4">4</string>
+    <string name="piso5">5</string>
+    <string name="hab1">01</string>
+    <string name="hab2">02</string>
+    <string name="hab3">03</string>
+    <string name="error1">Digite los Mts^2</string>
+    <string name="error2">Digite el Precio</string>
+    <string name="error3">Ya existe la nomenclatura</string>
+    <string name="balsom">Comodidades</string>
+    <string name="caro">Apartamento más caro</string>
+    <string name="grande">Apartamento más grande</string>
+    <string name="promedio">Promedio del tamaño por piso</string>
+    <string name="reporte1">N° de Apartamentos con Balcon y Sombra:</string>
+    <string name="guardar">Apartamento guardado exitosamente!</string>
+    <string-array name="opciones">
+        <item>@string/registrar</item>
+        <item>@string/listado</item>
+        <item>@string/reportes</item>
+    </string-array>
+    <string-array name="pisos">
+        <item>@string/piso1</item>
+        <item>@string/piso2</item>
+        <item>@string/piso3</item>
+        <item>@string/piso4</item>
+        <item>@string/piso5</item>
+    </string-array>
+    <string-array name="habitaciones">
+        <item>@string/hab1</item>
+        <item>@string/hab2</item>
+        <item>@string/hab3</item>
+    </string-array>
+    <string-array name="reportes">
+        <item>@string/balsom</item>
+        <item>@string/caro</item>
+        <item>@string/grande</item>
+        <item>@string/promedio</item>
+    </string-array>
+</resources>
