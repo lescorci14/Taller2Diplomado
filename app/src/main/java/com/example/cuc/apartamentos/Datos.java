@@ -20,7 +20,7 @@ public class Datos {
         int precio;
         Apartamento a;
 
-        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 1);
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 3);
         db = aux.getReadableDatabase();
         sql = "select * from Apartamentos";
         Cursor c = db.rawQuery(sql,null);
@@ -48,7 +48,7 @@ public class Datos {
         int precio;
         Apartamento a=null;
 
-        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto,"DBApartamentos",null,1);
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto,"DBApartamentos",null,3);
         db=aux.getReadableDatabase();
 
         sql = "select * from Apartamentos where nomenclatura='"+nom+"'";

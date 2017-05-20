@@ -72,7 +72,7 @@ public class Apartamento {
         SQLiteDatabase db;
         String sql;
 
-        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 1);
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 3);
         db = aux.getWritableDatabase();
 
         sql = "INSERT INTO Apartamentos values('"+this.getNomenclatura()+"','"

@@ -79,7 +79,7 @@ public class Registro extends AppCompatActivity {
                     comodidad = res.getString(R.string.ambas);
                 }
 
-                metros = cajaMetros.getText().toString()+"Mts^2";
+                metros = cajaMetros.getText().toString();
                 pre = cajaPrecio.getText().toString();
                 precio = Integer.parseInt(pre);
 

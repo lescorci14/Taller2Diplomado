@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apartments</string>
+    <string name="ambas">Both</string>
+    <string name="apartamentos">Apartments</string>
+    <string name="balcon">Balcony</string>
+    <string name="balsom">Amenities</string>
+    <string name="caro">The Most Expensive Apartment</string>
+    <string name="comodidad">Amenity</string>
+    <string name="error1">Type the Mts^^2</string>
+    <string name="error2">Type the Price</string>
+    <string name="error3">Your nomenclature is alredy exist!</string>
+    <string name="grande">The Biggest Apartment</string>
+    <string name="guardar">Apartment Sucessfully Saved!</string>
+    <string name="hab_numero">Bedroom:</string>
+    <string name="listado">List</string>
+    <string name="nomenclatura">Nomenclature</string>
+    <string name="numero">N°</string>
+    <string name="piso">Floor:</string>
+    <string name="precio">Price</string>
+    <string name="promedio">Average size per floor</string>
+    <string name="registrar">Registry</string>
+    <string name="reporte1">N° of Apartments with Balcony and Shadow:</string>
+    <string name="reporte2">Floor of the most expensive apartment:</string>
+    <string name="reporte3">Apartment with the biggest size:</string>
+    <string name="reporte3b">Size:</string>
+    <string name="reportes">Reports</string>
+    <string name="sombra">Shadow</string>
+    <string name="hab1" translatable="false">01</string>
+    <string name="hab2" translatable="false">02</string>
+    <string name="hab3">03</string>
+    <string name="metros" translatable="false">Mts^2</string>
+    <string name="piso1">1</string>
+    <string name="piso2">2</string>
+    <string name="piso3">3</string>
+    <string name="piso4">4</string>
+    <string name="piso5">5</string>
+</resources>

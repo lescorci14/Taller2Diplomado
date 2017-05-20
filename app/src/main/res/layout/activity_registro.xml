@@ -86,7 +86,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
+                android:inputType="number"
                 android:ems="10"
                 android:id="@+id/txtMetros"
                 android:hint="@string/metros" />
@@ -103,7 +103,8 @@
                 android:text="@string/registrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/cmdRegistrar" />
+                android:id="@+id/cmdRegistrar"
+                android:onClick="guardar" />
         </LinearLayout>
     </ScrollView>
 

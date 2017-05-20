@@ -13,7 +13,7 @@
     <string name="hab_numero">Habitación:</string>
     <string name="balcon">Balcon</string>
     <string name="sombra">Sombra</string>
-    <string name="ambas">Balcon y Sombra</string>
+    <string name="ambas">Ambos</string>
     <string name="piso1">1</string>
     <string name="piso2">2</string>
     <string name="piso3">3</string>
@@ -30,6 +30,9 @@
     <string name="grande">Apartamento más grande</string>
     <string name="promedio">Promedio del tamaño por piso</string>
     <string name="reporte1">N° de Apartamentos con Balcon y Sombra:</string>
+    <string name="reporte2">Piso del apartamento más caro:</string>
+    <string name="reporte3">Apartamento de mayor tamaño:</string>
+    <string name="reporte3b">Tamaño:</string>
     <string name="guardar">Apartamento guardado exitosamente!</string>
     <string-array name="opciones">
         <item>@string/registrar</item>
